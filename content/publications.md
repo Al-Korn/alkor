@@ -1,1 +1,0 @@
-[[Evoliutsiia-proektirovaniia-IoT]]
