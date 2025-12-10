@@ -8,6 +8,7 @@ echo "🔄 Синхронизация Al-Korn..."
 rsync -av --delete "$SOURCE" "$DEST"
 
 cd ~/Projects/quartz-alkor
+git checkout v4  # Добавьте эту строку
 git add .
 git commit -m "Обновление $(date '+%Y-%m-%d %H:%M')"
 
